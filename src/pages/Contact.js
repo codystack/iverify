@@ -1,6 +1,7 @@
-import React from "react";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import React from 'react';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+import * as Icon from 'react-feather';
 
 function Contact() {
     return (
@@ -13,7 +14,7 @@ function Contact() {
                   <div className="col-lg-6">
                     <h1 className="h1 text-white text-center text-lg-left my-4"><strong>We’re happy to help!</strong></h1>
                     <p className="lead text-white text-center text-lg-left opacity-8">Our team is happy to answer all your questions ASAP,<br />Do you have general enquiries or need support? Please hit the button below.</p>
-                    <div className="mt-5 text-center text-lg-left"><a href="#sct-form-contact" data-scroll-to className="btn btn-warning text-dark btn-lg btn-icon"><span className="btn-inner--icon"><i data-feather="edit-2" /> </span><span className="btn-inner--text">Write a message</span></a></div>
+                    <div className="mt-5 text-center text-lg-left"><a href="#sct-form-contact" data-scroll-to className="btn btn-warning text-dark btn-lg btn-icon"><span className="btn-inner--icon"><Icon.Edit2 width={17}/></span><span className="btn-inner--text">Write a message</span></a></div>
                     <div className="d-flex align-items-center justify-content-center justify-content-lg-left mt-5">
                       <div className="col-auto text-sm text-white pl-0 pr-4">Trusted by:</div>
                       <div className="client-group col">
@@ -38,7 +39,7 @@ function Contact() {
                   <div className="card text-center hover-translate-y-n10 hover-shadow-lg">
                     <div className="px-5 pb-5 pt-5">
                       <div className="py-4">
-                        <div className="icon text-warning icon-sm mx-auto"><i data-feather="phone-call" /></div>
+                        <div className="icon text-warning icon-sm mx-auto"><Icon.PhoneCall/></div>
                       </div>
                       <h5 className>Sales</h5>
                       <p className="mt-2 mb-0">Ready to work with us to get your organization secured?</p>
@@ -50,7 +51,7 @@ function Contact() {
                   <div className="card text-center hover-translate-y-n10 hover-shadow-lg">
                     <div className="px-5 pb-5 pt-5">
                       <div className="py-4">
-                        <div className="icon text-warning icon-sm mx-auto"><i data-feather="settings" /></div>
+                        <div className="icon text-warning icon-sm mx-auto"><Icon.Settings/></div>
                       </div>
                       <h5 className>Support</h5>
                       <p className="mt-2 mb-0">Need general support or information about our services?</p>
@@ -62,7 +63,7 @@ function Contact() {
                   <div className="card text-center hover-translate-y-n10 hover-shadow-lg">
                     <div className="px-5 pb-5 pt-5">
                       <div className="py-4">
-                        <div className="icon text-warning icon-sm mx-auto"><i data-feather="users" /></div>
+                        <div className="icon text-warning icon-sm mx-auto"><Icon.Users/></div>
                       </div>
                       <h5 className>Careers</h5>
                       <p className="mt-2 mb-0">Have any question around joining our team? Say hello.</p>

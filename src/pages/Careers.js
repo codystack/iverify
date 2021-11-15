@@ -1,6 +1,7 @@
-import React from "react";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import React from 'react';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+import * as Icon from 'react-feather';
 
 function Careers() {
     return (
@@ -36,7 +37,7 @@ function Careers() {
                             <div className="card hover-translate-y-n10 mt-n7">
                             <div className="card-body text-center py-6">
                                 <div className="pb-4">
-                                <div className="icon bg-warning text-dark rounded-circle icon-shape shadow"><i data-feather="check" /></div>
+                                <div className="icon bg-warning text-dark rounded-circle icon-shape shadow"><Icon.Check /></div>
                                 </div>
                                 <div className="pt-2">
                                 <h5 className="mb-0">Take risks</h5>
@@ -48,7 +49,7 @@ function Careers() {
                             <div className="card hover-translate-y-n10 mt-md-n7">
                             <div className="card-body text-center py-6">
                                 <div className="pb-4">
-                                <div className="icon bg-warning text-dark rounded-circle icon-shape shadow"><i data-feather="check" /></div>
+                                <div className="icon bg-warning text-dark rounded-circle icon-shape shadow"><Icon.Check /></div>
                                 </div>
                                 <div className="pt-2">
                                 <h5 className="mb-0">Focus on impact</h5>
@@ -60,7 +61,7 @@ function Careers() {
                             <div className="card hover-translate-y-n10 mt-md-n7">
                             <div className="card-body text-center py-6">
                                 <div className="pb-4">
-                                <div className="icon bg-warning text-dark rounded-circle icon-shape shadow"><i data-feather="check" /></div>
+                                <div className="icon bg-warning text-dark rounded-circle icon-shape shadow"><Icon.Check /></div>
                                 </div>
                                 <div className="pt-2">
                                 <h5 className="mb-0">Learn fast</h5>
@@ -74,7 +75,7 @@ function Careers() {
                             <div className="card hover-translate-y-n10">
                             <div className="card-body text-center py-6">
                                 <div className="pb-4">
-                                <div className="icon bg-warning text-dark rounded-circle icon-shape shadow"><i data-feather="check" /></div>
+                                <div className="icon bg-warning text-dark rounded-circle icon-shape shadow"><Icon.Check /></div>
                                 </div>
                                 <div className="pt-2">
                                 <h5 className="mb-0">Listen to others</h5>
@@ -86,7 +87,7 @@ function Careers() {
                             <div className="card hover-translate-y-n10">
                             <div className="card-body text-center py-6">
                                 <div className="pb-4">
-                                <div className="icon bg-warning text-dark rounded-circle icon-shape shadow"><i data-feather="check" /></div>
+                                <div className="icon bg-warning text-dark rounded-circle icon-shape shadow"><Icon.Check /></div>
                                 </div>
                                 <div className="pt-2">
                                 <h5 className="mb-0">Give feedback</h5>
@@ -98,7 +99,7 @@ function Careers() {
                             <div className="card hover-translate-y-n10">
                             <div className="card-body text-center py-6">
                                 <div className="pb-4">
-                                <div className="icon bg-warning text-dark rounded-circle icon-shape shadow"><i data-feather="check" /></div>
+                                <div className="icon bg-warning text-dark rounded-circle icon-shape shadow"><Icon.Check /></div>
                                 </div>
                                 <div className="pt-2">
                                 <h5 className="mb-0">Catch cruise</h5>
@@ -150,7 +151,7 @@ function Careers() {
                             <hr className="mt-3 mb-4 d-md-none" />
                             <div className="row align-items-center">
                                 <div className="col"><a href="!#" className="h6 text-sm stretched-link">Part time</a></div>
-                                <div className="col-auto"><a href="!#" className="stretched-link"><i data-feather="map-pin" /><span className="h6 text-sm ml-3">Port Harcourt, Rivers State.</span></a></div>
+                                <div className="col-auto"><a href="!#" className="stretched-link"><Icon.MapPin width={16} /><span className="h6 text-sm ml-3">Port Harcourt, Rivers State.</span></a></div>
                             </div>
                             </div>
                         </div>
@@ -167,7 +168,7 @@ function Careers() {
                             <hr className="mt-3 mb-4 d-md-none" />
                             <div className="row align-items-center">
                                 <div className="col"><a href="!#" className="h6 text-sm stretched-link">Part time</a></div>
-                                <div className="col-auto"><a href="!#" className="stretched-link"><i data-feather="map-pin" /><span className="h6 text-sm ml-3">Warri, Delta State.</span></a></div>
+                                <div className="col-auto"><a href="!#" className="stretched-link"><Icon.MapPin width={16} /><span className="h6 text-sm ml-3">Warri, Delta State.</span></a></div>
                             </div>
                             </div>
                         </div>

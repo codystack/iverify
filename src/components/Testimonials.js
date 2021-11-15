@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import * as Icon from 'react-feather';
 
 function Testimonials() {
     return (
@@ -14,13 +15,13 @@ function Testimonials() {
                     <div className="col-lg-4">
                         <div className="card hover-shadow-lg hover-translate-y-n3">
                             <div className="card-body p-5">
-                              <span className="static-rating d-block mb-4">
-                                <i data-feather="star" className="star voted" />
-                                <i data-feather="star" className="star voted" />
-                                <i data-feather="star" className="star voted" />
-                                <i data-feather="star" className="star voted" />
-                                <i data-feather="star" className="star voted" />
-                              </span>
+                                <span className="static-rating d-block mb-4">
+                                    <Icon.Star width={17} className="star voted"/>
+                                    <Icon.Star width={17} className="star voted"/>
+                                    <Icon.Star width={17} className="star voted"/>
+                                    <Icon.Star width={17} className="star voted"/>
+                                    <Icon.Star width={17} className="star voted"/>
+                                </span>
                                 <div className="mb-4 flex-grow-1">
                                     <h4 className="h5 lh-160 mb-0">“I was completely blown away with their services. They helped protect us from hiring a driver with track record of child molestation.”</h4>
                                 </div>
@@ -41,13 +42,13 @@ function Testimonials() {
                     <div className="col-lg-4">
                         <div className="card hover-shadow-lg hover-translate-y-n3">
                             <div className="card-body p-5">
-                              <span className="static-rating d-block mb-4">
-                                <i data-feather="star" className="star voted" />
-                                <i data-feather="star" className="star voted" />
-                                <i data-feather="star" className="star voted" />
-                                <i data-feather="star" className="star voted" />
-                                <i data-feather="star" className="star voted" />
-                              </span>
+                                <span className="static-rating d-block mb-4">
+                                    <Icon.Star width={17} className="star voted"/>
+                                    <Icon.Star width={17} className="star voted"/>
+                                    <Icon.Star width={17} className="star voted"/>
+                                    <Icon.Star width={17} className="star voted"/>
+                                    <Icon.Star width={17} className="star voted"/>
+                                </span>
                                 <div className="mb-4 flex-grow-1">
                                     <h4 className="h5 lh-160 mb-0">“We've had issues with employee theft in our retail brand, when iVerify™ came onboard, we embraced pre-employement verification and theft became history.”</h4>
                                 </div>
@@ -68,13 +69,13 @@ function Testimonials() {
                     <div className="col-lg-4">
                         <div className="card hover-shadow-lg hover-translate-y-n3">
                             <div className="card-body p-5">
-                              <span className="static-rating d-block mb-4">
-                                <i data-feather="star" className="star voted" />
-                                <i data-feather="star" className="star voted" />
-                                <i data-feather="star" className="star voted" />
-                                <i data-feather="star" className="star voted" />
-                                <i data-feather="star" className="star voted" />
-                              </span>
+                                <span className="static-rating d-block mb-4">
+                                    <Icon.Star width={17} className="star voted"/>
+                                    <Icon.Star width={17} className="star voted"/>
+                                    <Icon.Star width={17} className="star voted"/>
+                                    <Icon.Star width={17} className="star voted"/>
+                                    <Icon.Star width={17} className="star voted"/>
+                                </span>
                                 <div className="mb-4 flex-grow-1">
                                     <h4 className="h5 lh-160 mb-0">“Traders of Africa has benefited a lot from the services of iVerify™. From employee verification to suppliers and buyers due diligence...”</h4>
                                 </div>

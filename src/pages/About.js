@@ -1,6 +1,7 @@
-import React from "react";
-import Footer from "../components/Footer";
-import Lightnavbar from "../components/Lightnavbar";
+import React from 'react';
+import Footer from '../components/Footer';
+import Lightnavbar from '../components/Lightnavbar';
+import * as Icon from 'react-feather';
 
 
 function About() {
@@ -17,7 +18,7 @@ function About() {
                         <p className="lead text-white opacity-8">We are focused on solving and digitizing Nigeria’s biggest identity challenges, through Company, Certificate, Employee, Tenant and Property Verification for individuals and businesses.</p>
                         <div className="mt-5">
                             <a href="contact" className="btn btn-warning text-dark btn-lg btn-icon">
-                            <span className="btn-inner--icon"><i data-feather="edit-3" /> </span>
+                            <span className="btn-inner--icon"><Icon.Edit3 width={16}/> </span>
                             <span className="btn-inner--text">Contact us</span>
                             </a>
                         </div>

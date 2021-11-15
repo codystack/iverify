@@ -20,7 +20,7 @@ function Home() {
                             <p className="lead text-white opacity-8">Our document verification and improved identity
                                 innovation allows you to verify data and access information.</p>
                             <div className="mt-5">
-                                <a href="auth/signup" className="btn btn-white btn-lg btn-icon">
+                                <a href="https://myiverify.com/signup" className="btn btn-white btn-lg btn-icon">
                                     <span className="btn-inner--text">Get started</span>
                                     <span className="btn-inner--icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"
@@ -56,7 +56,7 @@ function Home() {
                         </div>
                         <div
                             className="position-lg-absolute bottom-lg-4 bottom-xl-0 right-lg-n10 mb-n5 mb-lg-0 mb-xl-n7 col-lg-10 col-xl-10 zindex-100">
-                            <div className="frame frame-laptop zindex-100 ml-lg-6"><img alt="slider" src="/assets/img/svg/slideimg001.svg" className="img-fluid"/>
+                            <div className="frame frame-laptop zindex-100 ml-lg-6"><img alt="slider" src="/assets/img/slideimg1.png" className="img-fluid"/>
                                 {/*<div class=frame-inner><img alt="Image placeholder" src=assets/img/theme/light/screen-2-1000x800.jpg class=img-fluid></div>*/}
                             </div>
                             <div className="w-25 position-absolute top-n5 left-8 left-xl-9"><img alt="dot square" src="/assets/img/svg/shapes/dots-square.svg" className="svg-inject img-fluid"/>
@@ -78,7 +78,7 @@ function Home() {
                     <div className="row row-grid text-center">
                         <div className="col-md-4">
                             <div className="pb-4">
-                                <div className="icon"><img alt="group" src="/assets/img/svg/icons/Group.svg" className="svg-inject img-fluid"/></div>
+                                <div className="icon"><img alt="group" src="/assets/img/svg/icons/Group.svg" width={60} className="svg-inject img-fluid"/></div>
                             </div>
                             <h5>Employee Verification</h5>
                             <p className="text-muted mb-0">Outsource and leverage our comprehensive employee
@@ -87,8 +87,7 @@ function Home() {
                         </div>
                         <div className="col-md-4">
                             <div className="pb-4">
-                                <div className="icon"><img alt="enterprize" src="/assets/img/svg/icons/Enterprise_2.svg"
-                                                           className="svg-inject img-fluid"/></div>
+                                <div className="icon"><img alt="enterprize" src="/assets/img/svg/icons/Enterprise_2.svg" width={35} className="svg-inject img-fluid"/></div>
                             </div>
                             <h5>Company Verification</h5>
                             <p className="text-muted mb-0">Build a portfolio and Increase your pre-contractual knowledge
@@ -98,8 +97,7 @@ function Home() {
                         </div>
                         <div className="col-md-4">
                             <div className="pb-4">
-                                <div className="icon"><img alt="enterprise" src="/assets/img/svg/icons/Enterprise.svg"
-                                                           className="svg-inject img-fluid"/></div>
+                                <div className="icon"><img alt="enterprise" src="/assets/img/svg/icons/Enterprise.svg" width={38} className="svg-inject img-fluid"/></div>
                             </div>
                             <h5 className="">Tenant Verification</h5>
                             <p className="text-muted mb-0">We guarantee that our efficient property and tenant
@@ -130,7 +128,7 @@ function Home() {
                         </div>
                         <div className="col-lg-6 order-lg-1">
                             <div className="mb-0">
-                                <div><img alt="home" src="/assets/img/hmeimg.png" className="img-fluid"/></div>
+                                <div><img alt="Identity is a right" src="/assets/img/hmeimg1.png" className="img-fluid"/></div>
                             </div>
                         </div>
                     </div>

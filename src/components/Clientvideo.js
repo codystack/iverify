@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import * as Icon from 'react-feather';
 
 function Clientvideo() {
     return (
@@ -11,7 +12,7 @@ function Clientvideo() {
                             <h4 className="text-white mt-3">Hear what others have to say</h4>
                             <a href="./assets/vid/epicure.mp4" data-fancybox data-toggle="tooltip" data-placement="bottom" title="Play Video" className="btn btn-lg btn-warning text-dark btn-icon-only rounded-circle hover-scale-110 mt-4">
                                 <span className="btn-inner--icon">
-                                    <i data-feather="feather-play" />
+                                    <Icon.Play width={17}/>
                                 </span>
                             </a>
                         </div>

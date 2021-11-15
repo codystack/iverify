@@ -17,7 +17,7 @@ function Footer() {
                                     <p className="lead mb-0 text-white opacity-8">We provide topnoch identity verification to fuel your brand growth.</p>
                                 </div>
                                 <div className="col-lg-5 text-lg-right mt-4 mt-lg-0">
-                                    <a href="auth/signup" className="btn btn-warning text-dark btn-icon my-2"><span className="btn-inner--text">Get Started</span> </a>
+                                    <a href="https://myiverify.com/signup" className="btn btn-warning text-dark btn-icon my-2"><span className="btn-inner--text">Get Started</span> </a>
                                 </div>
                             </div>
                         </div>
@@ -37,7 +37,7 @@ function Footer() {
                             <ul className="list-unstyled">
                                 <li><a href="faq">Quick help</a></li>
                                 <li><a href="https://blog.iverify.ng/" target="_blank" rel="noreferrer">Blog</a></li>
-                                <li><a href="#Chat" onclick="tidioChatApi.open();">Chat with us</a></li>
+                                {/* <li><a href="#Chat" onclick="tidioChatApi.open();">Chat with us</a></li> */}
                             </ul>
                         </div>
                         <div className="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
