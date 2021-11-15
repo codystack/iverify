@@ -180,14 +180,14 @@ function Lightnavbar() {
                 </li>
               </ul>
               <ul className="navbar-nav align-items-lg-center d-none d-lg-flex ml-lg-auto">
-                <li className="nav-item"><a className="nav-link" href="auth/login"><span className="btn-inner--icon"><i data-feather="log-in" /></span> <span className="btn-inner--text" />Login</a></li>
-                <li className="nav-item"><a href="auth/signup" className="btn btn-sm btn-white btn-icon ml-3">Get Started</a></li>
+                <li className="nav-item"><a className="nav-link" href="https://myiverify.com/login"><span className="btn-inner--icon"><i data-feather="log-in" /></span> <span className="btn-inner--text" />Login</a></li>
+                <li className="nav-item"><a href="https://myiverify.com/signup" className="btn btn-sm btn-white btn-icon ml-3">Get Started</a></li>
               </ul>
               <span className="pl-3 ngicon">
                 <img src="https://i.imgur.com/vSVsXS0.jpg" alt="iVerify Nigeria" className="avatar rounded-circle avatar-sm" />
               </span>
               <div className="d-lg-none px-4 text-center">
-                <a href="auth/signup" className="btn btn-block btn-sm btn-dark">Get Started</a>
+                <a href="https://myiverify.com/signup" className="btn btn-block btn-sm btn-dark">Get Started</a>
               </div>
             </div>
           </div>
